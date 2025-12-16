@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140" role="img" aria-labelledby="title desc">
+  <title id="title">Oracle wordmark placeholder</title>
+  <desc id="desc">Simple custom placeholder for Oracle logo</desc>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4d4f" />
+      <stop offset="100%" stop-color="#ff7a29" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="132" height="132" rx="28" fill="url(#g)" />
+  <rect x="14" y="14" width="112" height="112" rx="22" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="4" />
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="46" font-weight="700" fill="#fff" letter-spacing="1">O</text>
+  <rect x="35" y="78" width="70" height="10" rx="5" fill="rgba(255,255,255,0.7)" />
+</svg>

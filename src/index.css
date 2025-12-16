@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-[#030304] text-gray-200 antialiased;
+}
+
+.bg-noise {
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+.bg-radial-fade {
+  background: radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.12), transparent 30%),
+    radial-gradient(circle at 80% 10%, rgba(99, 102, 241, 0.1), transparent 28%),
+    radial-gradient(circle at 50% 80%, rgba(16, 185, 129, 0.12), transparent 28%);
+}
+
+.box-shadow-glow {
+  box-shadow: 0 0 24px rgba(59, 130, 246, 0.4);
+}
