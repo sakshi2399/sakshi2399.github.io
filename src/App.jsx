@@ -3,6 +3,7 @@ import {
   ArrowRight,
   Box,
   Command,
+  Download,
   ExternalLink,
   Github,
   GitBranch,
@@ -45,6 +46,14 @@ const CommandBar = ({ activeSection, onNavigate }) => (
       </button>
     ))}
     <div className="w-[1px] h-4 bg-gray-700 mx-2" />
+    <a
+      href={`mailto:${portfolio.profile.email}`}
+      className="px-3 py-1.5 rounded-full text-xs font-medium text-gray-400 hover:text-white hover:bg-white/5 transition-all flex items-center gap-2"
+      title="Email"
+    >
+      <Mail className="w-3 h-3" />
+      <span className="text-[10px] font-mono">CONTACT</span>
+    </a>
     <a
       href={portfolio.profile.linkedin}
       className="p-1.5 rounded-full hover:bg-white/10 text-gray-400 hover:text-white transition-colors"
@@ -111,16 +120,24 @@ const HeroSection = ({ onNavigate }) => (
       </h1>
 
       <p className="text-lg md:text-xl text-gray-400 max-w-2xl leading-relaxed mb-10">
-        {portfolio.profile.tagline}. I build the scalable <span className="text-white font-medium">pipelines</span> and{' '}
+        {portfolio.profile.tagline}. <br></br>I build scalable <span className="text-white font-medium">pipelines</span> and{' '}
         <span className="text-white font-medium">AI systems</span> that power enterprise intelligence.
       </p>
 
       <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
         <a
+          href={portfolio.profile.resume}
+          download="Sakshi_Khose_Resume.pdf"
+          className="group relative px-8 py-4 bg-white text-black font-bold text-sm tracking-widest uppercase rounded-full overflow-hidden hover:scale-105 transition-transform flex items-center justify-center gap-2"
+        >
+          <Download className="w-4 h-4" /> Resume
+          <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+        </a>
+        <a
           href={portfolio.profile.linkedin}
           target="_blank"
           rel="noreferrer"
-          className="group relative px-8 py-4 bg-white text-black font-bold text-sm tracking-widest uppercase rounded-full overflow-hidden hover:scale-105 transition-transform flex items-center justify-center gap-2"
+          className="group relative px-8 py-4 bg-white/5 border border-white/10 text-white font-bold text-sm tracking-widest uppercase rounded-full overflow-hidden hover:bg-white/10 hover:border-white/30 transition-all flex items-center justify-center gap-2"
         >
           <Linkedin className="w-4 h-4" /> Connect
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -424,18 +441,18 @@ const ContactSection = () => (
           <p className="text-sm uppercase tracking-[0.2em] text-blue-300 mb-3">Collaboration</p>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">Initialize Collaboration.</h2>
           <p className="text-lg text-gray-400 mb-8">
-            Optimizing data infrastructures. Available for select engineering roles and architectural consulting.
+            Optimizing data infrastructures. Available for data engineering, data analyst, consulting roles.
           </p>
 
           <div className="flex flex-wrap gap-3">
             <button
-              onClick={() => navigator.clipboard.writeText('sakshikhose2399@gmail.com')}
+              onClick={() => navigator.clipboard.writeText(portfolio.profile.email)}
               className="group inline-flex items-center gap-2 px-4 py-3 rounded-xl bg-white text-black font-semibold shadow-lg hover:-translate-y-[1px] transition-transform"
             >
               <Mail className="w-4 h-4" /> Copy Email
             </button>
             <a
-              href="mailto:sakshikhose2399@gmail.com?subject=Hi%20Sakshi%2C%20let%27s%20talk%20data%20platforms"
+              href={`mailto:${portfolio.profile.email}?subject=Hi%20Sakshi%2C%20let%27s%20talk%20data%20platforms`}
               className="inline-flex items-center gap-2 px-4 py-3 rounded-xl border border-white/15 text-white hover:bg-white/5 transition-colors"
             >
               <ArrowRight className="w-4 h-4" /> Book 15m intro
