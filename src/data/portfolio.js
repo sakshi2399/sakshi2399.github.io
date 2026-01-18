@@ -47,7 +47,7 @@ export const portfolio = {
       role: 'Teaching Assistant',
       period: '2025 - Present',
       logo: 'UA',
-      logoUrl: '/logos/ua.svg',
+      logoUrl: '/logos/uofa.jpg',
       color: 'from-blue-500 to-blue-700',
       tags: ['SQL', 'Education', 'Modeling'],
       highlights: [
@@ -58,10 +58,10 @@ export const portfolio = {
     {
       id: 'oracle',
       company: 'Oracle',
-      role: 'Staff Data Engineer',
+      role: 'Data Engineer',
       period: '2022 - 2024',
       logo: 'O',
-      logoUrl: '/logos/oracle.svg',
+      logoUrl: '/logos/oracle.jpg',
       color: 'from-red-500 to-orange-600',
       tags: ['Oracle APEX', 'Python', 'GenAI', 'SQL', 'ETL'],
       highlights: [
@@ -76,7 +76,7 @@ export const portfolio = {
       role: 'Data Engineer',
       period: '2021 - 2022',
       logo: 'EY',
-      logoUrl: '/logos/ey.svg',
+      logoUrl: '/logos/ey.jpeg',
       color: 'from-yellow-400 to-yellow-600',
       tags: ['Hive', 'Presto', 'API', 'SQL', 'Real-time'],
       highlights: [
