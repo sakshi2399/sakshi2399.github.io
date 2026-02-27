@@ -2,38 +2,41 @@ export const portfolio = {
   profile: {
     name: 'Sakshi Khose',
     role: 'Data Engineer | Data Analyst',
-    tagline: '3+ Years Experience | Data Engineer & Data Analyst',
-    location: 'Tucson, AZ',
+    tagline: '3+ Years Experience | MS MIS Graduate | Data Engineer & Data Analyst',
+    location: 'San Mateo, CA',
     availability: 'Open to Opportunities',
-    bio: 'I transform chaotic data swamps into pristine lakes of insight. With over 4 years of experience, I build scalable ETL architectures, optimize query performance for Fortune 500s, and integrate Generative AI into enterprise workflows.',
+    bio: 'I transform chaotic data swamps into pristine lakes of insight. With a recently completed MS in MIS (4.0 GPA) and 3+ years of experience, I build scalable ETL architectures, optimize query performance for Fortune 500s, and integrate Generative AI into enterprise workflows.',
     email: 'sakshikhose@arizona.edu',
     contact: 'https://github.com/sakshi2399',
     linkedin: 'https://linkedin.com/in/sakshikhose',
+    leetcode: 'https://leetcode.com/u/sakshi2399/',
+    tableau: 'https://public.tableau.com/app/profile/sakshi.sandeep.khose/vizzes',
+    medium: 'https://medium.com/@sakshikhose2399/about',
     resume: '/resume/Sakshi_Khose_Resume.pdf'
   },
   metrics: [
-    { label: 'Reporting Turnaround Time', value: '-90%' },
-    { label: 'Data Quality Issues', value: '-15%' },
-    { label: 'Critical KPIs Preserved', value: '20+' },
-    { label: 'Stakeholders Supported', value: '20+' },
-    { label: 'Pipeline Processing Time', value: '-10 days' },
-    { label: 'Query Performance', value: '+40%' },
-    { label: 'Data Accuracy', value: '99%+' },
-    { label: 'Automated Validations', value: '15%' }
+    { label: 'Reporting turnaround', value: '90% faster' },
+    { label: 'Data quality issues', value: '15% fewer' },
+    { label: 'Critical KPIs safeguarded', value: '20+' },
+    { label: 'Business stakeholders served', value: '20+ teams' },
+    { label: 'Pipeline SLA', value: '10 days faster' },
+    { label: 'Query performance', value: '40% faster' },
+    { label: 'Data accuracy', value: '99%+' },
+    { label: 'Automated validations', value: '15% more checks' }
   ],
   skills: {
-    'Core Engineering': ['Python(Intermediate)', 'SQL(Advanced)', 'PySpark'],
-    'Cloud Infrastructure': [ 'AWS( Athena, S3, RedShift, Glue, EC2, Lambda)', 'Oracle Cloud Infrastructure'],
-    'Big Data & ETL': ['Spark', 'Airflow', 'Kafka', 'dbt', 'Snowflake'],
-    'DevOps & Tools': ['Docker', 'Kubernetes', 'Terraform', 'Git', 'CI/CD'],
-    'AI & Analytics': [ 'Tableau', 'PowerBI', 'Looker'],
-    'Business Intelligence': ['Dimesional Modeling(Star & Snowflake Schema','KPI & Metric Definition']  
+    'Data Engineering Core': ['Python', 'Advanced SQL', 'PySpark', 'PL/SQL', 'ETL Design Patterns'],
+    'Cloud & Warehousing': ['AWS (Athena, S3, Glue, Redshift, Lambda)', 'Snowflake', 'Oracle Cloud Infrastructure'],
+    'Big Data & Orchestration': ['Apache Spark', 'Airflow', 'Kafka', 'dbt', 'SSIS'],
+    'Data Quality & Modeling': ['Dimensional Modeling (Star & Snowflake)', 'Data Vault 2.0', 'KPI / Metric Definition', 'Data Quality Automation'],
+    'Analytics & Visualization': ['Tableau', 'Power BI', 'Looker', 'Pandas', 'Exploratory Data Analysis'],
+    'DevOps & Platform': ['Docker', 'Kubernetes', 'Terraform', 'Git', 'CI/CD Pipelines']
   },
   education: [
     {
       degree: 'Masters in Management Information Systems',
       school: 'University of Arizona',
-      location: 'Tucson, AZ',
+      location: 'San Mateo, CA',
       period: 'Aug 2024 - Dec 2025',
       gpa: '4.0 / 4.0',
       courses: ['Enterprise Data Management', 'Data Mining', 'Business Intelligence']
@@ -47,11 +50,77 @@ export const portfolio = {
       courses: ['Big Data Analytics', 'Data Structures', 'Algorithms']
     }
   ],
+  awards: [
+    {
+      title: 'MADHACKS Hackathon – JAPAC Region (3rd Place)',
+      org: 'Oracle',
+      year: 'Dec 2023',
+      description:
+        "Awarded 3rd place in Oracle's global MADHACKS hackathon (JAPAC region) for SABDAM, an ML-powered CRM assistant that automated transcription, sentiment analysis, and KYC workflows to boost help-desk efficiency.",
+      link: null
+    },
+    {
+      title: 'Certificate of Recognition – Most Innovative Idea',
+      org: 'Fr. C. Rodrigues Institute of Technology (University of Mumbai)',
+      year: 'Jan 2021',
+      description:
+        "Earned 'Most Innovative Idea' at the Android Application Development Hackathon for 'Share & Care,' a campus marketplace that reduced supply-demand gaps by enabling students to resell and exchange college essentials.",
+      link: null
+    },
+    {
+      title: 'YES! – Your Excellence Shines (FY24 Q1)',
+      org: 'Oracle',
+      year: 'FY24 Q1',
+      description:
+        'Recognized for leading multiple high-impact Oracle initiatives end-to-end—owning delivery timelines, upgrading UI/UX for better performance, aligning stakeholders, and proactively removing blockers to ship reliable, user-centric platforms.',
+      link: null
+    }
+  ],
+  certifications: [
+    {
+      name: 'Oracle Autonomous Database Cloud 2022 Certified Professional',
+      issuer: 'Oracle',
+      issued: 'Apr 26, 2023',
+      credentialId: '0BF2AFBC868C7FF03872BEF5F980B29DDB0EA59708CC0473ECA9886474EDCBF5',
+      credentialUrl:
+        'https://catalog-education.oracle.com/ords/certview/sharebadge?id=0BF2AFBC868C7FF03872BEF5F980B29DDB0EA59708CC0473ECA9886474EDCBF5'
+    },
+    {
+      name: 'Oracle APEX Cloud Developer Certified Specialist',
+      issuer: 'Oracle',
+      issued: 'Jan 18, 2023',
+      credentialId: '3A46D09B4173B1A0B68D322E826E51207FB895DF83D26E48AEE0C69E453E395A',
+      credentialUrl:
+        'https://catalog-education.oracle.com/ords/certview/sharebadge?id=3A46D09B4173B1A0B68D322E826E51207FB895DF83D26E48AEE0C69E453E395A'
+    },
+    {
+      name: 'Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate',
+      issuer: 'Oracle',
+      issued: 'Nov 14, 2023',
+      credentialUrl:
+        'https://catalog-education.oracle.com/ords/certview/sharebadge?id=3A6CC327349F421862DAD17B57D93078E97C11C9055B87792114AEEEF6B1D3AF'
+    },
+    {
+      name: 'Certificate in Management and Soft Skills',
+      issuer: 'Tata Institute of Social Sciences',
+      issued: 'Jan 2021'
+    }
+  ],
+  recommendations: [
+    {
+      name: 'Dr. Faiz Currim',
+      title: 'Professor, MIS Department – University of Arizona',
+      date: 'Dec 22, 2025',
+      relationship: 'Faculty Supervisor',
+      quote:
+        'Sakshi pairs deep database expertise with relentless follow-through—she met every deadline without sacrificing quality and explained complex concepts with clarity. She routinely went beyond her remit, holding weekend office hours so every student felt supported. I would gladly work with her again and recommend her without hesitation.'
+    }
+  ],
   experience: [
     {
       id: 'ua',
       company: 'Univ. of Arizona',
-      role: 'Teaching Assistant',
+      role: 'Teaching Assistant – Database Management Systems',
       period: 'Jan 2025 - Dec 2025',
       logo: 'UA',
       logoUrl: '/logos/uofa.jpg',
@@ -105,7 +174,8 @@ export const portfolio = {
         'Intent -> Metadata Map (Oracle)',
         'Query Generation -> Validation',
         'Result -> Natural Language Response'
-      ]
+      ],
+      githubUrl: 'https://github.com/sakshi2399/ai-fusion-query-gen'
     },
     {
       title: 'Sabdam CRM',
@@ -117,7 +187,9 @@ export const portfolio = {
         'Audio Stream -> Speech-to-Text Model',
         'Text -> Sentiment Classifier (BERT)',
         'Output -> CRM Dashboard Overlay'
-      ]
+      ],
+      githubUrl: 'https://github.com/sakshi2399/sabdam-crm',
+      analyticsUrl: 'https://public.tableau.com/views/sabdam-insights'
     },
     {
       title: 'Enterprise Warehouse',
@@ -130,7 +202,9 @@ export const portfolio = {
         'S3 -> Glue Crawler -> Athena',
         'Transformation (dbt) -> Redshift',
         'Visualization -> PowerBI'
-      ]
+      ],
+      githubUrl: 'https://github.com/sakshi2399/enterprise-warehouse',
+      analyticsUrl: 'https://app.powerbi.com/view?r=enterprise-warehouse'
     }
   ]
 };
