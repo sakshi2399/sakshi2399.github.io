@@ -174,8 +174,7 @@ export const portfolio = {
         'Intent -> Metadata Map (Oracle)',
         'Query Generation -> Validation',
         'Result -> Natural Language Response'
-      ],
-      githubUrl: 'https://github.com/sakshi2399/ai-fusion-query-gen'
+      ]
     },
     {
       title: 'Sabdam CRM',
@@ -187,9 +186,7 @@ export const portfolio = {
         'Audio Stream -> Speech-to-Text Model',
         'Text -> Sentiment Classifier (BERT)',
         'Output -> CRM Dashboard Overlay'
-      ],
-      githubUrl: 'https://github.com/sakshi2399/sabdam-crm',
-      analyticsUrl: 'https://public.tableau.com/views/sabdam-insights'
+      ]
     },
     {
       title: 'Enterprise Warehouse',
@@ -202,9 +199,7 @@ export const portfolio = {
         'S3 -> Glue Crawler -> Athena',
         'Transformation (dbt) -> Redshift',
         'Visualization -> PowerBI'
-      ],
-      githubUrl: 'https://github.com/sakshi2399/enterprise-warehouse',
-      analyticsUrl: 'https://app.powerbi.com/view?r=enterprise-warehouse'
+      ]
     }
   ]
 };
